@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+  
+.container {
+    text-align: center;
+    color: aquamarine;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border: 2px solid blue;
+    padding: 20px;
+    background-color: #4b3d3d;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#telinha {
+    width: 90%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.botao{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
